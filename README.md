@@ -60,9 +60,10 @@ When many models achieve statistically indistinguishable accuracy on a risk-pred
 - **Practical implication:** this is computable directly as a constrained optimization ("flip up to $\varepsilon n$ predictions of $\hat r^*$ to maximize profit, subject to an accuracy-loss budget of $\varepsilon$") — no need to train a real Rashomon set to get the theoretical ceiling.
 
 **To do:**
-- [ ] Write out the full proposition statement
-- [ ] Prove the closed-form bound
-- [ ] Sanity-check against a toy 2-type example by hand
+- [x] Write out the full proposition statement — see `paper/theory_draft.md`
+- [x] Prove the closed-form bound (Proposition 1, ε-only ceiling) — see `paper/theory_draft.md` §3
+- [x] Sanity-check against a toy 2-type example by hand — see `paper/theory_draft.md` §5
+- [ ] Derive the closed-form rate for the corr(w,Z)-scaled realistic ceiling (Proposition 2) — setup is done (`paper/theory_draft.md` §4), exact rate still open, pending Elmachtoub et al. read-through
 
 ---
 
